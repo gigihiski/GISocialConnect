@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A790453D1970450400883F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A790453C1970450400883F5F /* Foundation.framework */; };
+		A790453F1970450400883F5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A790453E1970450400883F5F /* CoreGraphics.framework */; };
+		A79045411970450400883F5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79045401970450400883F5F /* UIKit.framework */; };
+		A79045471970450400883F5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A79045451970450400883F5F /* InfoPlist.strings */; };
+		A79045491970450400883F5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79045481970450400883F5F /* main.m */; };
+		A790454D1970450400883F5F /* GSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A790454C1970450400883F5F /* GSCAppDelegate.m */; };
+		A79045501970450400883F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A790454E1970450400883F5F /* Main.storyboard */; };
+		A79045531970450400883F5F /* GSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79045521970450400883F5F /* GSCViewController.m */; };
+		A79045551970450400883F5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79045541970450400883F5F /* Images.xcassets */; };
+		A790455C1970450400883F5F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A790455B1970450400883F5F /* XCTest.framework */; };
+		A790455D1970450400883F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A790453C1970450400883F5F /* Foundation.framework */; };
+		A790455E1970450400883F5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79045401970450400883F5F /* UIKit.framework */; };
+		A79045661970450400883F5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A79045641970450400883F5F /* InfoPlist.strings */; };
+		A79045681970450400883F5F /* GISocialConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A79045671970450400883F5F /* GISocialConnectTests.m */; };
+		A79045751970453B00883F5F /* GISocialConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = A79045741970453B00883F5F /* GISocialConnect.m */; };
+		A79045771970459800883F5F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79045761970459800883F5F /* Social.framework */; };
+		A79045791970459C00883F5F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79045781970459C00883F5F /* Accounts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A790455F1970450400883F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79045311970450400883F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79045381970450400883F5F;
+			remoteInfo = GISocialConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A79045391970450400883F5F /* GISocialConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GISocialConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790453C1970450400883F5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A790453E1970450400883F5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A79045401970450400883F5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A79045441970450400883F5F /* GISocialConnect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GISocialConnect-Info.plist"; sourceTree = "<group>"; };
+		A79045461970450400883F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A79045481970450400883F5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A790454A1970450400883F5F /* GISocialConnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GISocialConnect-Prefix.pch"; sourceTree = "<group>"; };
+		A790454B1970450400883F5F /* GSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSCAppDelegate.h; sourceTree = "<group>"; };
+		A790454C1970450400883F5F /* GSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSCAppDelegate.m; sourceTree = "<group>"; };
+		A790454F1970450400883F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A79045511970450400883F5F /* GSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSCViewController.h; sourceTree = "<group>"; };
+		A79045521970450400883F5F /* GSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSCViewController.m; sourceTree = "<group>"; };
+		A79045541970450400883F5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A790455A1970450400883F5F /* GISocialConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GISocialConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790455B1970450400883F5F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A79045631970450400883F5F /* GISocialConnectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GISocialConnectTests-Info.plist"; sourceTree = "<group>"; };
+		A79045651970450400883F5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A79045671970450400883F5F /* GISocialConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GISocialConnectTests.m; sourceTree = "<group>"; };
+		A79045731970453B00883F5F /* GISocialConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISocialConnect.h; sourceTree = "<group>"; };
+		A79045741970453B00883F5F /* GISocialConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISocialConnect.m; sourceTree = "<group>"; };
+		A79045761970459800883F5F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A79045781970459C00883F5F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79045361970450400883F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79045791970459C00883F5F /* Accounts.framework in Frameworks */,
+				A79045771970459800883F5F /* Social.framework in Frameworks */,
+				A790453F1970450400883F5F /* CoreGraphics.framework in Frameworks */,
+				A79045411970450400883F5F /* UIKit.framework in Frameworks */,
+				A790453D1970450400883F5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79045571970450400883F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A790455C1970450400883F5F /* XCTest.framework in Frameworks */,
+				A790455E1970450400883F5F /* UIKit.framework in Frameworks */,
+				A790455D1970450400883F5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79045301970450400883F5F = {
+			isa = PBXGroup;
+			children = (
+				A79045421970450400883F5F /* GISocialConnect */,
+				A79045611970450400883F5F /* GISocialConnectTests */,
+				A790453B1970450400883F5F /* Frameworks */,
+				A790453A1970450400883F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A790453A1970450400883F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79045391970450400883F5F /* GISocialConnect.app */,
+				A790455A1970450400883F5F /* GISocialConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A790453B1970450400883F5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A79045781970459C00883F5F /* Accounts.framework */,
+				A79045761970459800883F5F /* Social.framework */,
+				A790453C1970450400883F5F /* Foundation.framework */,
+				A790453E1970450400883F5F /* CoreGraphics.framework */,
+				A79045401970450400883F5F /* UIKit.framework */,
+				A790455B1970450400883F5F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A79045421970450400883F5F /* GISocialConnect */ = {
+			isa = PBXGroup;
+			children = (
+				A79045721970453B00883F5F /* GISocialConnect */,
+				A790454B1970450400883F5F /* GSCAppDelegate.h */,
+				A790454C1970450400883F5F /* GSCAppDelegate.m */,
+				A790454E1970450400883F5F /* Main.storyboard */,
+				A79045511970450400883F5F /* GSCViewController.h */,
+				A79045521970450400883F5F /* GSCViewController.m */,
+				A79045541970450400883F5F /* Images.xcassets */,
+				A79045431970450400883F5F /* Supporting Files */,
+			);
+			path = GISocialConnect;
+			sourceTree = "<group>";
+		};
+		A79045431970450400883F5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79045441970450400883F5F /* GISocialConnect-Info.plist */,
+				A79045451970450400883F5F /* InfoPlist.strings */,
+				A79045481970450400883F5F /* main.m */,
+				A790454A1970450400883F5F /* GISocialConnect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A79045611970450400883F5F /* GISocialConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A79045671970450400883F5F /* GISocialConnectTests.m */,
+				A79045621970450400883F5F /* Supporting Files */,
+			);
+			path = GISocialConnectTests;
+			sourceTree = "<group>";
+		};
+		A79045621970450400883F5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79045631970450400883F5F /* GISocialConnectTests-Info.plist */,
+				A79045641970450400883F5F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A79045721970453B00883F5F /* GISocialConnect */ = {
+			isa = PBXGroup;
+			children = (
+				A79045731970453B00883F5F /* GISocialConnect.h */,
+				A79045741970453B00883F5F /* GISocialConnect.m */,
+			);
+			path = GISocialConnect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79045381970450400883F5F /* GISocialConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A790456B1970450400883F5F /* Build configuration list for PBXNativeTarget "GISocialConnect" */;
+			buildPhases = (
+				A79045351970450400883F5F /* Sources */,
+				A79045361970450400883F5F /* Frameworks */,
+				A79045371970450400883F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GISocialConnect;
+			productName = GISocialConnect;
+			productReference = A79045391970450400883F5F /* GISocialConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A79045591970450400883F5F /* GISocialConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A790456E1970450400883F5F /* Build configuration list for PBXNativeTarget "GISocialConnectTests" */;
+			buildPhases = (
+				A79045561970450400883F5F /* Sources */,
+				A79045571970450400883F5F /* Frameworks */,
+				A79045581970450400883F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79045601970450400883F5F /* PBXTargetDependency */,
+			);
+			name = GISocialConnectTests;
+			productName = GISocialConnectTests;
+			productReference = A790455A1970450400883F5F /* GISocialConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79045311970450400883F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GSC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dutamaya Indonesia";
+				TargetAttributes = {
+					A79045591970450400883F5F = {
+						TestTargetID = A79045381970450400883F5F;
+					};
+				};
+			};
+			buildConfigurationList = A79045341970450400883F5F /* Build configuration list for PBXProject "GISocialConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A79045301970450400883F5F;
+			productRefGroup = A790453A1970450400883F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79045381970450400883F5F /* GISocialConnect */,
+				A79045591970450400883F5F /* GISocialConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79045371970450400883F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79045551970450400883F5F /* Images.xcassets in Resources */,
+				A79045471970450400883F5F /* InfoPlist.strings in Resources */,
+				A79045501970450400883F5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79045581970450400883F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79045661970450400883F5F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79045351970450400883F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A790454D1970450400883F5F /* GSCAppDelegate.m in Sources */,
+				A79045751970453B00883F5F /* GISocialConnect.m in Sources */,
+				A79045531970450400883F5F /* GSCViewController.m in Sources */,
+				A79045491970450400883F5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79045561970450400883F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79045681970450400883F5F /* GISocialConnectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A79045601970450400883F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79045381970450400883F5F /* GISocialConnect */;
+			targetProxy = A790455F1970450400883F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A79045451970450400883F5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79045461970450400883F5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A790454E1970450400883F5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A790454F1970450400883F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A79045641970450400883F5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79045651970450400883F5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A79045691970450400883F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A790456A1970450400883F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A790456C1970450400883F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GISocialConnect/GISocialConnect-Prefix.pch";
+				INFOPLIST_FILE = "GISocialConnect/GISocialConnect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A790456D1970450400883F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GISocialConnect/GISocialConnect-Prefix.pch";
+				INFOPLIST_FILE = "GISocialConnect/GISocialConnect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A790456F1970450400883F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GISocialConnect.app/GISocialConnect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GISocialConnect/GISocialConnect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GISocialConnectTests/GISocialConnectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A79045701970450400883F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GISocialConnect.app/GISocialConnect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GISocialConnect/GISocialConnect-Prefix.pch";
+				INFOPLIST_FILE = "GISocialConnectTests/GISocialConnectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79045341970450400883F5F /* Build configuration list for PBXProject "GISocialConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79045691970450400883F5F /* Debug */,
+				A790456A1970450400883F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A790456B1970450400883F5F /* Build configuration list for PBXNativeTarget "GISocialConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A790456C1970450400883F5F /* Debug */,
+				A790456D1970450400883F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A790456E1970450400883F5F /* Build configuration list for PBXNativeTarget "GISocialConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A790456F1970450400883F5F /* Debug */,
+				A79045701970450400883F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79045311970450400883F5F /* Project object */;
+}
